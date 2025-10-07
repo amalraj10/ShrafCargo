@@ -23,10 +23,10 @@ const Navigation = () => {
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-24 md:h-28">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <img src={sharafLogo} alt="Sharaf Cargo Logo" className="h-20 w-auto" />
+            <img src={sharafLogo} alt="Sharaf Cargo Logo" className="h-24 md:h-28 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}
